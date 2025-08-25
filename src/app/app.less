@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Kuta Beach';
+    src: url('assets/fonts/KutaBeach.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+main.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	text-align: center;
+}
+
+/* To use 'Kuta Beach', import the font in your index.html or via @font-face below. */
+h1 {
+    color: white;
+	font-family: 'Kuta Beach', cursive, sans-serif;
+    font-size: clamp(4rem, 8vw, 8vw);
+    text-shadow:
+        -2px -2px 0 #111,
+        2px -2px 0 #111,
+        -2px 2px 0 #111,
+        2px 2px 0 #111,
+        0px 2px 0 #111,
+        2px 0px 0 #111,
+        0px -2px 0 #111,
+        -2px 0px 0 #111;
+}
+
+.countingFont {
+    color: white;
+    font-family: cursive;
+    font-size: clamp(2.5rem, 4vw, 4vw);
+    text-shadow:
+        -2px -2px 0 #111,
+        2px -2px 0 #111,
+        -2px 2px 0 #111,
+        2px 2px 0 #111,
+        0px 2px 0 #111,
+        2px 0px 0 #111,
+        0px -2px 0 #111,
+        -2px 0px 0 #111;
+}
+
+.numbersSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.numbersSection > * {
+    align-self: flex-start;
+    text-align: left;
+}

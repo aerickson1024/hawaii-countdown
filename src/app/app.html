@@ -1,0 +1,12 @@
+<main class="main">
+  <h1>{{ title() }}</h1>
+
+  <div class="numbersSection">
+    <div class="countingFont"><strong>{{ countdown().days }}</strong> days</div>
+    <div class="countingFont"><strong>{{ countdown().hours }}</strong> hours</div>
+    <div class="countingFont"><strong>{{ countdown().minutes }}</strong> minutes</div>
+    <div class="countingFont"><strong>{{ countdown().seconds }}</strong> seconds</div>
+  </div>
+</main>
+
+<router-outlet />
